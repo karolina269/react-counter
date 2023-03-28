@@ -1,0 +1,37 @@
+.counter {
+  border: 1px solid black;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.counter button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.counter button:hover {
+  background-color: rgb(66, 66, 185);
+}
+
+.clockControl {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.counter span {
+  color: blue;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.counter input {
+  width: 50px;
+}
+.counter input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
